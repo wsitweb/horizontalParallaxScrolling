@@ -5,3 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body{
+    height: 100%;
+    background-color: #000;
+}
+.slider{
+    height: 100%;
+    &__item{
+        overflow: hidden;
+    }
+    &__layer{
+        position: absolute;
+        inset: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
